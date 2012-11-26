@@ -9,17 +9,23 @@ The detect_author.m is the main file needed for execution and the rest of the fi
 
 Input parameters:
 -----------------------------------------------------------------
-known_text => Array with text vectors t={fr1,fr2,...}<br/>
-snippets => Array with unknown text vectors s={fr1,fr2,...}<br/>
-authors => Array with authors<br/>
-s_authors => Array with snippet authors<br/>
-k1 => Iterations<br/>
-k2 => feature set size<br/>
-sigma => final decision threshold<br/>
-distance function => e.g 'cosine'<br/>
+<table>
+<tr><td><b>Variable</b></td><td><b>Description</b></td><td><b>Example</b></td></tr>
+<tr><td>known_text</td><td>Array with text vectors</td><td>[t1, t2, ..., tn]</td></tr>
+<tr><td>snippets</td><td>Array with unknown text vectors</td><td>[s1, s2, ..., sn]</td></tr>
+<tr><td>authors</td><td>Array with author names</td><td>['Author 1', 'Author 2', ..., 'Author n']</td></tr>
+<tr><td>s_authors</td><td>Array with author snippets</td><td>[s1, s2, ..., sn]</td></tr>
+<tr><td>k1</td><td>Number of iterations</td><td>10</td></tr>
+<tr><td>sigma</td><td>Final decision threshold (0-100)</td><td>80</td></tr>
+<tr><td>distance_function</td><td>The desired distance function</td><td>cosine</td></tr>
+</table>
 
 Output:
 -----------------------------------------------------------------
-Array with Author per snippet<br/>
-Precision and Recall Metrics<br/>
-Table with confusion matrix<br/>
+<table>
+<tr><td><b>Variable</b></td><td><b>Description</b></td></tr>
+<tr><td>snippet_results</td><td>Array with Author per snippet</td></tr>
+<tr><td>precision</td><td>Precision scores</td></tr>
+<tr><td>recall</td><td>Recall scores</td></tr>
+<tr><td>confusion_matrix</td><td>Table with confusion matrix</td></tr>
+</table>
