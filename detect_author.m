@@ -10,18 +10,18 @@ function [ snippet_results, precision, recall, confusion_matrix ] = detect_autho
 %
 % Input parameters:
 % -----------------
-% known_text => Array with text vectors t={fr1,fr2,...}
-% snippets => Array with unknown text vectors s={fr1,fr2,...}
-% authors => Array with authors
-% s_authors => Array with snippet authors
-% k1 => Iterations
-% k2 => feature set size
-% sigma => final decision threshold
-% distance function => e.g 'cosine' etc
+% known_text => Array with text vectors e.g. [t1,t2,…,tn]
+% snippets => Array with unknown text vectors e.g. [s1,s2,…,sn]
+% authors => Array with authors e.g. ['Author 1', 'Author 2', ...]
+% s_authors => Array with snippet authors e.g. [s1,s2,…,sn]
+% k1 => Iterations e.g. 10
+% k2 => feature set size e.g. 5
+% sigma => final decision threshold (0-100) e.g. 80
+% distance function => e.g 'cosine'
 %
 % Output:
 % ------
-% Array with Author per snippet
+% Array with author per snippet
 % PR Statistics
 % Table with confusion matrix
 %
