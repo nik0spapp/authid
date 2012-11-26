@@ -26,7 +26,7 @@ where t_{i} and s_{i} are n-dimensional float vectors (e.g. [f_{1}, f_{2}, ..., 
 Output:
 -----------------------------------------------------------------
 <table>
-<tr style="background:#EBFFEB"><td><b>Variable</b></td><td><b>Description</b></td></tr>
+<tr style="background:#EBFFFF"><td><b>Variable</b></td><td><b>Description</b></td></tr>
 <tr><td>snippet_results</td><td>Array with author per snippet</td></tr>
 <tr><td>precision</td><td>Precision scores</td></tr>
 <tr><td>recall</td><td>Recall scores</td></tr>
