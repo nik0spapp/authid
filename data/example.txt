@@ -1,0 +1,6 @@
+test = [rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10)]
+known_text = [test;rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10)]
+ 
+ authors = struct('author',{'A. Cliff' 'N. Kirk' 'C. Hammington'},'range',{[1 40] [31 50] [51 60]})
+ 
+snippets = [test;rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10);rand(1,10)]
