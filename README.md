@@ -24,7 +24,7 @@ Output:
 -----------------------------------------------------------------
 <table>
 <tr><td><b>Variable</b></td><td><b>Description</b></td></tr>
-<tr><td>snippet_results</td><td>Array with Author per snippet</td></tr>
+<tr><td>snippet_results</td><td>Array with author per snippet</td></tr>
 <tr><td>precision</td><td>Precision scores</td></tr>
 <tr><td>recall</td><td>Recall scores</td></tr>
 <tr><td>confusion_matrix</td><td>Table with confusion matrix</td></tr>
