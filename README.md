@@ -11,7 +11,7 @@ The detect_author.m is the main file needed for execution and the rest of the fi
 Input parameters:
 -----------------------------------------------------------------
 <table>
-<tr style="background-color:#EBFFFF"><td><b>Variable</b></td><td><b>Description</b></td><td><b>Example</b></td></tr>
+<tr style="background:#EBFFFF"><td><b>Variable</b></td><td><b>Description</b></td><td><b>Example</b></td></tr>
 <tr><td>known_text</td><td>Array with text vectors</td><td>[t_{1}, t_{2}, ..., t_{n}]</td></tr>
 <tr><td>snippets</td><td>Array with unknown text vectors</td><td>[s_{1}, s_{2}, ..., s_{n}]</td></tr>
 <tr><td>authors</td><td>Array with author names</td><td>['Author 1', 'Author 2', ..., 'Author n']</td></tr>
