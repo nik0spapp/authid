@@ -1,3 +1,6 @@
+authorship_attribution
+==============
+
 The attached MATLAB code implements Moshe Koppel's et al. improved method introduced in the paper indicated below. 
 The code was developed during my master studies in Information Management at the University of the Aegean under 
 the scope of a semester project for the Machine Learning and Knowledge Discovery course.
