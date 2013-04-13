@@ -35,3 +35,5 @@ Output:
 <tr><td>recall</td><td>Recall scores</td></tr>
 <tr><td>confusion_matrix</td><td>Table with confusion matrix</td></tr>
 </table>
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/0f199459a1ae064189e7e80cb9cb97c2 "githalytics.com")](http://githalytics.com/nik0spapp/authorship_attribution)
