@@ -1,4 +1,4 @@
-authorship_attribution
+Authorship attribution
 ==============
 
 The attached MATLAB code implements Moshe Koppel's et al. improved method introduced in the paper indicated below. 
