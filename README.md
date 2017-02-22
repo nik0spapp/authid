@@ -1,8 +1,4 @@
-Authorship attribution
-==============
-
-The attached MATLAB code implements Moshe Koppel's et al. improved method introduced in the paper indicated below. 
-The code was developed during my master studies in Information Management at the University of the Aegean under 
+<b>authid</b> — The attached MATLAB code implements Moshe Koppel's et al. improved method introduced in the paper indicated below. The code was developed during my master studies in Information Management at the University of the Aegean under 
 the scope of a semester project for the Machine Learning and Knowledge Discovery course.
 
 Koppel, Moshe, Jonathan Schler, and Shlomo Argamon. "Authorship attribution in the wild." Language Resources and Evaluation 45.1 (2011): 83-94.
